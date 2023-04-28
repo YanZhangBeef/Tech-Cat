@@ -66,9 +66,9 @@ function custom_search_styles() {
     
     #search {
       width: 250px;
-      height: 30px;
+      height: 40px;
       border-radius: 20px;
-      border: none;S
+      border: none;
       padding: 5px 10px;
       background-color: #ccc;
       display: inline-block;
@@ -90,10 +90,14 @@ function custom_search_styles() {
       display: inline-block;
       vertical-align: middle;
     }
+    #search-btn:hover {
+      background-color: #4A4DDA;
+      color: white;
+    }
 	
 	.list-container {
         display: flex;
-        justify-content: center;
+        justify-content: centre;
       }
 
       .my-list {
