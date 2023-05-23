@@ -80,30 +80,30 @@ msgstr "编辑"
 msgid "Allow <a href=\"%s\">trackbacks and pingbacks</a>"
 msgstr "允许<a href=\"%s\">Trackback和Pingback</a>"
 
-#: wp-admin/about.php:83
+#: wp-admin/about.php:114
 msgid "Manage your menu in more ways with the Navigation block"
 msgstr "使用导航区块以更多方式管理站点菜单"
 
-#: wp-admin/about.php:77
+#: wp-admin/about.php:108
 msgid "An updated interface gives you more control over your site editing experience. Browse through full previews of your templates and template parts, then jump into editing your site from wherever you choose."
 msgstr "更新后的界面让您可以更便捷地控制站点编辑体验。 浏览模板和模板组件的完整预览，后从选定的任何位置开始编辑站点。"
 
-#: wp-admin/about.php:76
+#: wp-admin/about.php:107
 msgid "Explore and edit your site from the Site Editor"
 msgstr "通过站点编辑器预览并编辑您的站点"
 
 #. translators: 1: Count of enhancements, 2: Count of bug fixes.
-#: wp-admin/about.php:60
+#: wp-admin/about.php:91
 msgid "WordPress 6.2 includes more than %1$s enhancements and %2$s bug fixes. This page highlights the latest features since the November 2022 release of WordPress 6.1. From quick highlights to developer resources, there&#8217;s a lot to explore."
 msgstr "WordPress 6.2 包含超过 %1$s 项功能增强及 %2$s 项错误修复。 此页面重点介绍了自 2022 年 11 月后 WordPress 6.1 发布的新功能。 从快速摘要到开发者资源，都可在这里找到。"
 
 #. translators: The localized WordPress download URL.
-#: wp-admin/about.php:343
+#: wp-admin/about.php:374
 msgid "https://wordpress.org/download/"
 msgstr "https://cn.wordpress.org/download/"
 
 #. translators: %s: The major version of WordPress for this branch.
-#: wp-admin/about.php:340
+#: wp-admin/about.php:371
 msgid "This is the final release of WordPress %s"
 msgstr "这是 WordPress %s 的最终版本"
 
@@ -112,7 +112,7 @@ msgid "Site Editor"
 msgstr "站点编辑器"
 
 #. translators: 1: Learn WordPress link.
-#: wp-admin/about.php:228
+#: wp-admin/about.php:259
 msgid "Explore <a href=\"%s\">learn.wordpress.org</a> for tutorial videos, online workshops, courses, and lesson plans for Meetup organizers, including new features in WordPress."
 msgstr "探索 <a href=\"%s\">learn.wordpress.org</a> 里提供给 Meetup 主办方的视频教程、在线工坊、课程和教学计划，并了解 WordPress 的新功能。"
 
@@ -426,27 +426,27 @@ msgid "Reach out to WordPress Core developers to ensure you'll never have this p
 msgstr "联系 WordPress 核心开发人员以确保您不会再遇到这个问题。"
 
 #. translators: 1: WordPress version number, 2: Link to update WordPress
-#: wp-admin/about.php:337
+#: wp-admin/about.php:368
 msgid "Important! Your version of WordPress (%1$s) will stop receiving security updates in the near future. To keep your site secure, please <a href=\"%2$s\">update to the latest version of WordPress</a>."
 msgstr "重要！您使用的 WordPress 版本（%1$s）即将停止接收安全更新。 为了确保您站点的安全，请尽快 <a href=\"%2$s\">更新到最新的 WordPress 版本</a>。"
 
 #. translators: 1: WordPress version number, 2: Link to update WordPress
-#: wp-admin/about.php:334
+#: wp-admin/about.php:365
 msgid "Important! Your version of WordPress (%1$s) is no longer supported, you will not receive any security updates for your website. To keep your site secure, please <a href=\"%2$s\">update to the latest version of WordPress</a>."
 msgstr "重要！您使用的 WordPress 版本（%1$s）已不再受到支持，您的站点将不会再接收到任何的安全更新。 为了确保您站点的安全，请尽快 <a href=\"%2$s\">更新到最新的 WordPress 版本</a>。"
 
 #. translators: 1: WordPress Release Notes link, 2: WordPress version number.
-#: wp-admin/about.php:266
+#: wp-admin/about.php:297
 msgid "<a href=\"%1$s\">Read the WordPress %2$s Release Notes</a> for more information on the included enhancements and issues fixed, installation information, developer notes and resources, release contributors, and the list of file changes in this release."
 msgstr "<a href=\"%1$s\">阅读 WordPress %2$s 发行说明</a>以进一步了解该版本所包含的改进、已修复的问题、安装信息、开发者笔记、资源、发布贡献者以及文件变更列表。"
 
 #. translators: %s: WordPress Field Guide link.
-#: wp-admin/about.php:248
+#: wp-admin/about.php:279
 msgid "Check out the latest version of the <a href=\"%s\">WordPress Field Guide</a>. It is overflowing with detailed developer notes to help you build with WordPress."
 msgstr "请查看最新版本的 <a href=\"%s\">WordPress 详解指南</a>。其中包含了详细的开发者注释，帮助您更高效的构建 WordPress 插件和主题。"
 
 #. translators: %s: Version number.
-#: wp-admin/about.php:219
+#: wp-admin/about.php:250
 msgid "Learn more about WordPress %s"
 msgstr "了解 WordPress %s"
 
@@ -1138,11 +1138,11 @@ msgid "Want more events? <a href=\"%s\">Help organize the next one</a>!"
 msgstr "想要更多活动吗？<a href=\"%s\">帮助组织下一场活动</a>！"
 
 #. translators: %s: User's display name.
-#: wp-admin/includes/ajax-actions.php:5553
+#: wp-admin/includes/ajax-actions.php:5557
 msgid "A password reset link was emailed to %s."
 msgstr "密码重置链接已通过邮件发送至%s。"
 
-#: wp-admin/includes/ajax-actions.php:5543
+#: wp-admin/includes/ajax-actions.php:5547
 msgid "Cannot send password reset, permission denied."
 msgstr "无法发送密码重置邮件，权限不足。"
 
@@ -1340,7 +1340,7 @@ msgstr "添加新的应用程序密码"
 msgid "Required to create an Application Password, but not to update the user."
 msgstr "此功能需要创建应用程序密码，但不需要更新用户信息。"
 
-#: wp-admin/about.php:284
+#: wp-admin/about.php:315
 msgid "Go to Updates"
 msgstr "转到“更新”页面"
 
@@ -1499,10 +1499,10 @@ msgstr "最后使用"
 
 #. translators: 1: The Site Health action that is no longer used by core. 2:
 #. The new function that replaces it.
-#: wp-admin/includes/ajax-actions.php:5281
-#: wp-admin/includes/ajax-actions.php:5314
-#: wp-admin/includes/ajax-actions.php:5347
-#: wp-admin/includes/ajax-actions.php:5397
+#: wp-admin/includes/ajax-actions.php:5285
+#: wp-admin/includes/ajax-actions.php:5318
+#: wp-admin/includes/ajax-actions.php:5351
+#: wp-admin/includes/ajax-actions.php:5401
 msgid "The Site Health check for %1$s has been replaced with %2$s."
 msgstr "站点健康检查的%1$s已被%2$s代替。"
 
@@ -1736,7 +1736,7 @@ msgctxt "theme"
 msgid "Activate &#8220;%s&#8221;"
 msgstr "启用“%s”"
 
-#: wp-admin/includes/ajax-actions.php:5487
+#: wp-admin/includes/ajax-actions.php:5491
 msgid "Sorry, you are not allowed to modify plugins."
 msgstr "抱歉，您不能修改插件。"
 
@@ -1984,20 +1984,20 @@ msgctxt "plugin"
 msgid "<strong>Error:</strong> Current versions of WordPress (%1$s) and PHP (%2$s) do not meet minimum requirements for %3$s. The plugin requires WordPress %4$s and PHP %5$s."
 msgstr "<strong>错误：</strong>当前WordPress版本（%1$s）和PHP版本（%2$s）未能达到%3$s的最低版本要求。此插件需要WordPress %4$s和PHP %5$s。"
 
-#: wp-admin/includes/ajax-actions.php:5509
+#: wp-admin/includes/ajax-actions.php:5513
 msgid "Invalid data. The item does not exist."
 msgstr "无效数据。该项目不存在。"
 
-#: wp-admin/includes/ajax-actions.php:5480
-#: wp-admin/includes/ajax-actions.php:5505
+#: wp-admin/includes/ajax-actions.php:5484
+#: wp-admin/includes/ajax-actions.php:5509
 msgid "Invalid data. Unknown type."
 msgstr "无效数据。 未知类型。"
 
-#: wp-admin/includes/ajax-actions.php:5475
+#: wp-admin/includes/ajax-actions.php:5479
 msgid "Invalid data. Unknown state."
 msgstr "无效数据。 未知状态。"
 
-#: wp-admin/includes/ajax-actions.php:5469
+#: wp-admin/includes/ajax-actions.php:5473
 msgid "Invalid data. No selected item."
 msgstr "无效数据。未选择项目。"
 
@@ -3103,17 +3103,17 @@ msgid "The authenticity of %s could not be verified as signature verification is
 msgstr "无法验证%s的真实性，因为签名验证于此系统不可用。"
 
 #. translators: %s: Eraser friendly name.
-#: wp-admin/includes/ajax-actions.php:5156
+#: wp-admin/includes/ajax-actions.php:5160
 msgid "Eraser callback is not valid: %s."
 msgstr "抹除器回调无效：%s。"
 
 #. translators: %s: Eraser friendly name.
-#: wp-admin/includes/ajax-actions.php:5146
+#: wp-admin/includes/ajax-actions.php:5150
 msgid "Eraser does not include a callback: %s."
 msgstr "抹除器未包含回调：%s。"
 
-#: wp-admin/includes/ajax-actions.php:4868
-#: wp-admin/includes/ajax-actions.php:5059
+#: wp-admin/includes/ajax-actions.php:4872
+#: wp-admin/includes/ajax-actions.php:5063
 msgid "Sorry, you are not allowed to perform this action."
 msgstr "抱歉，您不能进行此操作。"
 
@@ -4425,11 +4425,11 @@ msgctxt "plugin"
 msgid "Cannot Install"
 msgstr "未能安装"
 
-#. translators: %s: WordPress version number.
 #. translators: %s: WordPress version.
-#: wp-admin/about.php:269 wp-admin/includes/update.php:306
-#: wp-admin/index.php:119 wp-admin/install.php:247 wp-admin/update-core.php:94
-#: wp-admin/upgrade.php:81
+#. translators: %s: WordPress version number.
+#: wp-admin/about.php:67 wp-admin/about.php:300
+#: wp-admin/includes/update.php:306 wp-admin/index.php:119
+#: wp-admin/install.php:247 wp-admin/update-core.php:94 wp-admin/upgrade.php:81
 msgid "https://wordpress.org/support/wordpress-version/version-%s/"
 msgstr "https://cn.wordpress.org/support/wordpress-version/version-%s/"
 
@@ -5020,7 +5020,7 @@ msgid "Report generated for"
 msgstr "报告生成者"
 
 #. translators: %s: Exporter array index.
-#: wp-admin/includes/ajax-actions.php:4952
+#: wp-admin/includes/ajax-actions.php:4956
 msgid "Exporter array at index %s does not include a friendly name."
 msgstr "位于索引%s的导出器数组未包含友好名称。"
 
@@ -5032,72 +5032,72 @@ msgstr "抱歉，您不能抹除此站点的个人数据。"
 msgid "Sorry, you are not allowed to export personal data on this site."
 msgstr "抱歉，您不能从此站点导出个人数据。"
 
-#: wp-admin/includes/ajax-actions.php:5119
+#: wp-admin/includes/ajax-actions.php:5123
 msgid "Eraser index is out of range."
 msgstr "抹除器索引超出范围。"
 
-#: wp-admin/includes/ajax-actions.php:5078
+#: wp-admin/includes/ajax-actions.php:5082
 msgid "Missing eraser index."
 msgstr "缺少抹除器索引。"
 
 #. translators: %s: Exporter friendly name.
-#: wp-admin/includes/ajax-actions.php:5003
+#: wp-admin/includes/ajax-actions.php:5007
 msgid "Expected done (boolean) in response array from exporter: %s."
 msgstr "导出器返回的数组中未包含done（布尔值）：%s。"
 
 #. translators: %s: Exporter friendly name.
-#: wp-admin/includes/ajax-actions.php:4996
+#: wp-admin/includes/ajax-actions.php:5000
 msgid "Expected data array in response array from exporter: %s."
 msgstr "导出器返回的数组中未包含data数组：%s。"
 
 #. translators: %s: Exporter friendly name.
-#: wp-admin/includes/ajax-actions.php:4989
+#: wp-admin/includes/ajax-actions.php:4993
 msgid "Expected data in response array from exporter: %s."
 msgstr "导出器返回的数组中未包含data：%s。"
 
 #. translators: %s: Exporter friendly name.
-#: wp-admin/includes/ajax-actions.php:4982
+#: wp-admin/includes/ajax-actions.php:4986
 msgid "Expected response as an array from exporter: %s."
 msgstr "导出器返回的不是数组：%s。"
 
 #. translators: %s: Exporter friendly name.
-#: wp-admin/includes/ajax-actions.php:4968
+#: wp-admin/includes/ajax-actions.php:4972
 msgid "Exporter callback is not a valid callback: %s."
 msgstr "导出器回调函数不是合法的回调函数：%s。"
 
 #. translators: %s: Exporter friendly name.
-#: wp-admin/includes/ajax-actions.php:4961
+#: wp-admin/includes/ajax-actions.php:4965
 msgid "Exporter does not include a callback: %s."
 msgstr "导出器未包含回调函数：%s。"
 
 #. translators: %s: Exporter array index.
-#: wp-admin/includes/ajax-actions.php:4945
+#: wp-admin/includes/ajax-actions.php:4949
 msgid "Expected an array describing the exporter at index %s."
 msgstr "未找到描述位于索引%s的导出器的数组。"
 
-#: wp-admin/includes/ajax-actions.php:4931
+#: wp-admin/includes/ajax-actions.php:4935
 msgid "Exporter index is out of range."
 msgstr "导出器索引越界。"
 
-#: wp-admin/includes/ajax-actions.php:4927
+#: wp-admin/includes/ajax-actions.php:4931
 msgid "Exporter index cannot be negative."
 msgstr "导出器索引不能为负。"
 
-#: wp-admin/includes/ajax-actions.php:4921
+#: wp-admin/includes/ajax-actions.php:4925
 msgid "An exporter has improperly used the registration filter."
 msgstr "有导出器不当使用了注册过滤器。"
 
-#: wp-admin/includes/ajax-actions.php:4892
-#: wp-admin/includes/ajax-actions.php:5084
+#: wp-admin/includes/ajax-actions.php:4896
+#: wp-admin/includes/ajax-actions.php:5088
 msgid "Missing page index."
 msgstr "缺少页面索引。"
 
-#: wp-admin/includes/ajax-actions.php:4886
+#: wp-admin/includes/ajax-actions.php:4890
 msgid "Missing exporter index."
 msgstr "缺少导出器索引。"
 
-#: wp-admin/includes/ajax-actions.php:4877
-#: wp-admin/includes/ajax-actions.php:5068
+#: wp-admin/includes/ajax-actions.php:4881
+#: wp-admin/includes/ajax-actions.php:5072
 msgid "Invalid request type."
 msgstr "无效的请求类型。"
 
@@ -5215,7 +5215,7 @@ msgstr "个人数据导出"
 msgid "Personal Data Export for %s"
 msgstr "%s的个人数据导出"
 
-#: wp-admin/includes/ajax-actions.php:4882
+#: wp-admin/includes/ajax-actions.php:4886
 msgid "A valid email address must be given."
 msgstr "必须提供有效的电子邮箱地址。"
 
@@ -5286,61 +5286,61 @@ msgstr "确认请求重新发送成功。"
 msgid "Unable to initiate confirmation request."
 msgstr "无法发起确认请求。"
 
-#: wp-admin/includes/ajax-actions.php:4864
-#: wp-admin/includes/ajax-actions.php:5054
+#: wp-admin/includes/ajax-actions.php:4868
+#: wp-admin/includes/ajax-actions.php:5058
 msgid "Invalid request ID."
 msgstr "无效的请求ID。"
 
 #. translators: 1: Eraser friendly name, 2: Eraser array index.
-#: wp-admin/includes/ajax-actions.php:5228
+#: wp-admin/includes/ajax-actions.php:5232
 msgid "Expected done flag in response array from %1$s eraser (index %2$d)."
 msgstr "从抹除器%1$s（索引%2$d）处收到的数组未包含done旗标。"
 
 #. translators: 1: Eraser friendly name, 2: Eraser array index.
-#: wp-admin/includes/ajax-actions.php:5217
+#: wp-admin/includes/ajax-actions.php:5221
 msgid "Expected messages key to reference an array in response array from %1$s eraser (index %2$d)."
 msgstr "从抹除器%1$s（索引%2$d）处收到的数组包含的messages键未指代数组。"
 
 #. translators: 1: Eraser friendly name, 2: Eraser array index.
-#: wp-admin/includes/ajax-actions.php:5206
+#: wp-admin/includes/ajax-actions.php:5210
 msgid "Expected messages key in response array from %1$s eraser (index %2$d)."
 msgstr "从抹除器%1$s（索引%2$d）处收到的数组未包含messages键。"
 
 #. translators: 1: Eraser friendly name, 2: Eraser array index.
-#: wp-admin/includes/ajax-actions.php:5195
+#: wp-admin/includes/ajax-actions.php:5199
 msgid "Expected items_retained key in response array from %1$s eraser (index %2$d)."
 msgstr "从抹除器%1$s（索引%2$d）处收到的数组未包含items_retained键。"
 
 #. translators: 1: Eraser friendly name, 2: Eraser array index.
-#: wp-admin/includes/ajax-actions.php:5184
+#: wp-admin/includes/ajax-actions.php:5188
 msgid "Expected items_removed key in response array from %1$s eraser (index %2$d)."
 msgstr "从抹除器%1$s（索引%2$d）处收到的数组未包含items_removed键。"
 
 #. translators: 1: Eraser friendly name, 2: Eraser array index.
-#: wp-admin/includes/ajax-actions.php:5173
+#: wp-admin/includes/ajax-actions.php:5177
 msgid "Did not receive array from %1$s eraser (index %2$d)."
 msgstr "未从抹除器%1$s（索引%2$d）处收到数组。"
 
 #. translators: %d: Eraser array index.
-#: wp-admin/includes/ajax-actions.php:5137
+#: wp-admin/includes/ajax-actions.php:5141
 msgid "Eraser array at index %d does not include a friendly name."
 msgstr "位于索引%d的抹除器数组未包含友好名称。"
 
 #. translators: %d: Eraser array index.
-#: wp-admin/includes/ajax-actions.php:5132
+#: wp-admin/includes/ajax-actions.php:5136
 msgid "Expected an array describing the eraser at index %d."
 msgstr "未找到描述位于索引%d的抹除器的数组。"
 
-#: wp-admin/includes/ajax-actions.php:4935
-#: wp-admin/includes/ajax-actions.php:5123
+#: wp-admin/includes/ajax-actions.php:4939
+#: wp-admin/includes/ajax-actions.php:5127
 msgid "Page index cannot be less than one."
 msgstr "页面索引不能小于1。"
 
-#: wp-admin/includes/ajax-actions.php:5115
+#: wp-admin/includes/ajax-actions.php:5119
 msgid "Eraser index cannot be less than one."
 msgstr "抹除器索引不能小于1。"
 
-#: wp-admin/includes/ajax-actions.php:5074
+#: wp-admin/includes/ajax-actions.php:5078
 msgid "Invalid email address in request."
 msgstr "请求中包含无效的电子邮箱地址。"
 
@@ -6028,7 +6028,7 @@ msgstr "抱歉，您不能将用户添加到此站点网络。"
 msgid "Sorry, you are not allowed to edit this changeset."
 msgstr "抱歉，您不能编辑此变更集。"
 
-#: wp-admin/includes/ajax-actions.php:4282 wp-admin/update.php:207
+#: wp-admin/includes/ajax-actions.php:4286 wp-admin/update.php:207
 #: wp-admin/update.php:230
 msgid "Sorry, you are not allowed to update themes for this site."
 msgstr "抱歉，您不能在此站点上升级主题。"
@@ -6246,37 +6246,37 @@ msgstr "抱歉，您不能在此站点上编辑链接。"
 msgid "Sorry, you are not allowed to manage privacy options on this site."
 msgstr "抱歉，您不能管理此站点的隐私选项。"
 
-#: wp-admin/includes/ajax-actions.php:4707
+#: wp-admin/includes/ajax-actions.php:4711
 msgid "Plugin could not be deleted."
 msgstr "插件未能被删除。"
 
-#: wp-admin/includes/ajax-actions.php:4561 wp-admin/update.php:29
+#: wp-admin/includes/ajax-actions.php:4565 wp-admin/update.php:29
 #: wp-admin/update.php:57 wp-admin/update.php:80
 msgid "Sorry, you are not allowed to update plugins for this site."
 msgstr "抱歉，您不能在此站点上升级插件。"
 
-#: wp-admin/includes/ajax-actions.php:4437
-#: wp-admin/includes/ajax-actions.php:4546
-#: wp-admin/includes/ajax-actions.php:4654
+#: wp-admin/includes/ajax-actions.php:4441
+#: wp-admin/includes/ajax-actions.php:4550
+#: wp-admin/includes/ajax-actions.php:4658
 msgid "No plugin specified."
 msgstr "未指定插件。"
 
-#: wp-admin/includes/ajax-actions.php:4413
+#: wp-admin/includes/ajax-actions.php:4417
 msgid "Theme could not be deleted."
 msgstr "主题未能被删除。"
 
-#: wp-admin/includes/ajax-actions.php:4375
+#: wp-admin/includes/ajax-actions.php:4379
 msgid "Sorry, you are not allowed to delete themes on this site."
 msgstr "抱歉，您不能在此站点上删除主题。"
 
-#: wp-admin/includes/ajax-actions.php:4155 wp-admin/theme-install.php:16
+#: wp-admin/includes/ajax-actions.php:4159 wp-admin/theme-install.php:16
 #: wp-admin/update.php:258 wp-admin/update.php:300 wp-admin/update.php:334
 msgid "Sorry, you are not allowed to install themes on this site."
 msgstr "抱歉，您不能在此站点上安装主题。"
 
-#: wp-admin/includes/ajax-actions.php:4142
-#: wp-admin/includes/ajax-actions.php:4268
-#: wp-admin/includes/ajax-actions.php:4363
+#: wp-admin/includes/ajax-actions.php:4146
+#: wp-admin/includes/ajax-actions.php:4272
+#: wp-admin/includes/ajax-actions.php:4367
 msgid "No theme specified."
 msgstr "未指定主题。"
 
@@ -6749,7 +6749,7 @@ msgid "(Currently set to: %s)"
 msgstr "（当前设置为：%s）"
 
 #. translators: %s: WordPress version number.
-#: wp-admin/about.php:308
+#: wp-admin/about.php:339
 msgid "<strong>Version %s</strong> addressed one security issue."
 msgstr "<strong>版本%s</strong>修正了一个安全问题。"
 
@@ -6761,15 +6761,15 @@ msgstr "https://cn.gravatar.com/"
 msgid "Profile Picture"
 msgstr "资料图片"
 
-#: wp-admin/about.php:305
+#: wp-admin/about.php:47 wp-admin/about.php:336
 msgid "Maintenance and Security Releases"
 msgstr "维护和安全更新"
 
-#: wp-admin/about.php:302
+#: wp-admin/about.php:333
 msgid "Security Releases"
 msgstr "安全更新"
 
-#: wp-admin/about.php:299
+#: wp-admin/about.php:330
 msgid "Maintenance Releases"
 msgstr "维护更新"
 
@@ -7306,7 +7306,7 @@ msgstr "评论（%s）"
 msgid "Comments (%1$s) on &#8220;%2$s&#8221;"
 msgstr "“%2$s”的评论（%1$s）"
 
-#: wp-admin/includes/ajax-actions.php:5497
+#: wp-admin/includes/ajax-actions.php:5501
 msgid "Sorry, you are not allowed to modify themes."
 msgstr "抱歉，您不能编辑评论。"
 
@@ -7380,7 +7380,7 @@ msgid "%s approved comment"
 msgid_plural "%s approved comments"
 msgstr[0] "%s条已批准的评论"
 
-#: wp-admin/includes/ajax-actions.php:3966
+#: wp-admin/includes/ajax-actions.php:3970
 msgid "Image could not be processed."
 msgstr "图片不能被处理。"
 
@@ -7782,19 +7782,19 @@ msgid "Filter by comment type"
 msgstr "按评论类型筛选"
 
 #. translators: %s: User's display name.
-#: wp-admin/includes/ajax-actions.php:3941
+#: wp-admin/includes/ajax-actions.php:3945
 msgid "%s has been logged out."
 msgstr "已成功注销%s的会话。"
 
-#: wp-admin/includes/ajax-actions.php:3937
+#: wp-admin/includes/ajax-actions.php:3941
 msgid "You are now logged out everywhere else."
 msgstr "您已成功注销除此之外的所有会话。"
 
-#: wp-admin/includes/ajax-actions.php:3928
+#: wp-admin/includes/ajax-actions.php:3932
 msgid "Could not log out user sessions. Please try again."
 msgstr "无法注销用户会话，请重试。"
 
-#: wp-admin/includes/ajax-actions.php:3815
+#: wp-admin/includes/ajax-actions.php:3819
 msgid "This preview is unavailable in the editor."
 msgstr "此预览在编辑器中不可用。"
 
@@ -7980,7 +7980,7 @@ msgid "Beta Testing"
 msgstr "Beta测试"
 
 #. translators: %s: URL that could not be embedded.
-#: wp-admin/includes/ajax-actions.php:3781
+#: wp-admin/includes/ajax-actions.php:3785
 msgid "%s failed to embed."
 msgstr "嵌入%s失败。"
 
@@ -10022,45 +10022,46 @@ msgstr "输入此站点网络中已存在用户的电子邮箱地址以邀请他
 msgid "Show Toolbar when viewing site"
 msgstr "在浏览站点时显示工具栏"
 
+#. translators: %s: HelpHub URL.
 #. translators: %s: Documentation URL.
-#: wp-admin/about.php:331
+#: wp-admin/about.php:64 wp-admin/about.php:362
 msgid "For more information, see <a href=\"%s\">the release notes</a>."
 msgstr "欲了解更多，参见<a href=\"%s\">发行注记</a>。"
 
 #. translators: 1: WordPress version number, 2: Plural number of bugs. More
 #. than one security issue.
-#: wp-admin/about.php:325
+#: wp-admin/about.php:52 wp-admin/about.php:356
 msgid "<strong>Version %1$s</strong> addressed some security issues and fixed %2$s bug."
 msgid_plural "<strong>Version %1$s</strong> addressed some security issues and fixed %2$s bugs."
 msgstr[0] "<strong>%1$s版本</strong>修补了安全漏洞、修正了%2$s个问题。"
 
 #. translators: 1: WordPress version number, 2: Plural number of bugs. Singular
 #. security issue.
-#: wp-admin/about.php:319
+#: wp-admin/about.php:350
 msgid "<strong>Version %1$s</strong> addressed a security issue and fixed %2$s bug."
 msgid_plural "<strong>Version %1$s</strong> addressed a security issue and fixed %2$s bugs."
 msgstr[0] "<strong>%1$s版本</strong>修补了安全漏洞、修正了%2$s个问题。"
 
 #. translators: 1: WordPress version number, 2: Plural number of bugs.
-#: wp-admin/about.php:313
+#: wp-admin/about.php:344
 msgid "<strong>Version %1$s</strong> addressed %2$s bug."
 msgid_plural "<strong>Version %1$s</strong> addressed %2$s bugs."
 msgstr[0] "<strong>%1$s版本</strong>修复了%2$s个问题。"
 
 #. translators: %s: WordPress version number.
-#: wp-admin/about.php:310
+#: wp-admin/about.php:341
 msgid "<strong>Version %s</strong> addressed some security issues."
 msgstr "<strong>版本%s</strong>修正了一些安全问题。"
 
-#: wp-admin/about.php:304
+#: wp-admin/about.php:335
 msgid "Maintenance and Security Release"
 msgstr "维护和安全更新"
 
-#: wp-admin/about.php:301
+#: wp-admin/about.php:332
 msgid "Security Release"
 msgstr "安全更新"
 
-#: wp-admin/about.php:298
+#: wp-admin/about.php:329
 msgid "Maintenance Release"
 msgstr "维护更新"
 
@@ -10338,15 +10339,15 @@ msgid "Because this is a multisite installation, you may add accounts that alrea
 msgstr "由于当前多站点功能已经开启，您可以直接通过输入用户名或电子邮箱地址的方式将站点网络中的现有用户添加到站点中，然后为其指定用户角色。如需修改密码等其他信息，您需要拥有网络管理员的权限，访问“管理网络”>“所有用户”，然后将鼠标放置在用户名上方，点击出现的“编辑”链接。"
 
 #. translators: %s: Version number.
-#: wp-admin/about.php:51
+#: wp-admin/about.php:82
 msgid "Welcome to WordPress %s"
 msgstr "欢迎使用 WordPress %s"
 
-#: wp-admin/about.php:287
+#: wp-admin/about.php:318
 msgid "Go to Dashboard &rarr; Home"
 msgstr "转到“仪表盘” &rarr; “首页”页面"
 
-#: wp-admin/about.php:284
+#: wp-admin/about.php:315
 msgid "Go to Dashboard &rarr; Updates"
 msgstr "转到“仪表盘” &rarr; “更新”页面"
 
@@ -10589,8 +10590,8 @@ msgstr "超级管理员"
 #. translators: %s: Theme version number.
 #. translators: %s: WordPress version.
 #. translators: %s: Theme version.
-#: wp-admin/includes/ajax-actions.php:4571
-#: wp-admin/includes/ajax-actions.php:4614
+#: wp-admin/includes/ajax-actions.php:4575
+#: wp-admin/includes/ajax-actions.php:4618
 #: wp-admin/includes/class-wp-debug-data.php:951
 #: wp-admin/includes/class-wp-debug-data.php:998
 #: wp-admin/includes/class-wp-debug-data.php:1320
@@ -10902,7 +10903,7 @@ msgstr "第%1$s页，共%2$s页"
 msgid "%s Page Template"
 msgstr "%s页面模板"
 
-#: wp-admin/includes/ajax-actions.php:4676 wp-admin/plugins.php:624
+#: wp-admin/includes/ajax-actions.php:4680 wp-admin/plugins.php:624
 msgid "You cannot delete a plugin while it is active on the main site."
 msgstr "您不能删除主站点正在使用的插件。"
 
@@ -11044,7 +11045,7 @@ msgstr "升级插件"
 msgid "Theme updated successfully."
 msgstr "主题升级成功。"
 
-#: wp-admin/includes/ajax-actions.php:4342
+#: wp-admin/includes/ajax-actions.php:4346
 #: wp-admin/includes/class-theme-upgrader.php:63
 #: wp-admin/includes/class-theme-upgrader.php:100
 msgid "Theme update failed."
@@ -11055,7 +11056,7 @@ msgstr "主题升级失败。"
 msgid "Plugin updated successfully."
 msgstr "插件升级成功。"
 
-#: wp-admin/includes/ajax-actions.php:4633
+#: wp-admin/includes/ajax-actions.php:4637
 #: wp-admin/includes/class-plugin-upgrader.php:64
 #: wp-admin/includes/class-plugin-upgrader.php:91
 msgid "Plugin update failed."
@@ -12092,7 +12093,7 @@ msgstr "WordPress更新"
 msgid "Edit menu item"
 msgstr "编辑菜单项"
 
-#: wp-admin/about.php:287 wp-admin/includes/network.php:148
+#: wp-admin/about.php:318 wp-admin/includes/network.php:148
 msgid "Go to Dashboard"
 msgstr "转到“仪表盘”页面"
 
@@ -12657,7 +12658,7 @@ msgstr "插件文件"
 msgid "Select plugin to edit:"
 msgstr "选择要编辑的插件："
 
-#: wp-admin/includes/ajax-actions.php:4844 wp-admin/plugin-editor.php:187
+#: wp-admin/includes/ajax-actions.php:4848 wp-admin/plugin-editor.php:187
 #: wp-admin/theme-editor.php:194
 msgid "File edited successfully."
 msgstr "文件修改成功。"
@@ -13494,6 +13495,11 @@ msgstr "置顶这篇文章"
 #: wp-admin/includes/class-wp-posts-list-table.php:1963
 msgid "Not Sticky"
 msgstr "不置顶"
+
+#: wp-admin/includes/class-wp-posts-list-table.php:1959
+#: wp-admin/includes/class-wp-posts-list-table.php:1962
+msgid "Sticky"
+msgstr "置顶"
 
 #: wp-admin/includes/class-wp-posts-list-table.php:1921
 msgid "Allow Pings"
@@ -14872,7 +14878,7 @@ msgstr "更新评论"
 
 #. translators: 1: Post edited date, 2: Post edited time.
 #. translators: 1: Date of last edit, 2: Time of last edit.
-#: wp-admin/edit-form-advanced.php:630 wp-admin/includes/ajax-actions.php:2864
+#: wp-admin/edit-form-advanced.php:630 wp-admin/includes/ajax-actions.php:2868
 msgid "Last edited on %1$s at %2$s"
 msgstr "最后编辑于%1$s %2$s"
 
@@ -14880,7 +14886,7 @@ msgstr "最后编辑于%1$s %2$s"
 #. Post edited time.
 #. translators: 1: User's display name, 2: Date of last edit, 3: Time of last
 #. edit.
-#: wp-admin/edit-form-advanced.php:627 wp-admin/includes/ajax-actions.php:2861
+#: wp-admin/edit-form-advanced.php:627 wp-admin/includes/ajax-actions.php:2865
 msgid "Last edited by %1$s on %2$s at %3$s"
 msgstr "最后由%1$s编辑于%2$s%3$s"
 
